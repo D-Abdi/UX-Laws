@@ -1,5 +1,15 @@
 <template>
-<section id="Video" class="text-gray-600 body-font">
+<section id="Video" class="text-gray-600 body-font"
+v-motion
+  :initial="{
+    opacity: 0,
+    y: 100,
+  }"
+  :visible="{
+    opacity: 1,
+    y: 0,
+  }"
+>
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
       <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">

@@ -1,5 +1,15 @@
 <template>
-<section class="text-gray-600 body-font">
+<section class="text-gray-600 body-font"
+v-motion
+  :initial="{
+    opacity: 0,
+    y: 100,
+  }"
+  :visible="{
+    opacity: 1,
+    y: 0,
+  }"
+>
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap -m-4 justify-center">
       <div class="lg:w-1/3 lg:mb-0 mb-6 p-4 mx-12">

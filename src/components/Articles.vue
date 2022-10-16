@@ -1,5 +1,15 @@
 <template>
-<section id="Articles" class="text-gray-600 body-font">
+<section id="Articles" class="text-gray-600 body-font"
+v-motion
+  :initial="{
+    opacity: 0,
+    y: 100,
+  }"
+  :visible="{
+    opacity: 1,
+    y: 0,
+  }"
+>
   <div class="container px-5 py-24 mx-auto">
         <div class="text-center mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Articles on laws in practice</h1>
