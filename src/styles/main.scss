@@ -1,10 +1,7 @@
-$navColors: red, orange, yellow, green, blue, purple;
-$repeat: 10;
-
 .nav-link {
     position: relative;
     padding-bottom: .5rem;
-  
+
     .intro:before {
       content: '';
       position: absolute;
@@ -95,5 +92,25 @@ $repeat: 10;
         transform: scaleX(1);
       }
 
+      .active { 
+        position: relative;
+        padding-bottom: .5rem;
+      
+        &:before {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 4px;
+          border-radius: 4px;
+          bottom: 0;
+          left: 0;
+          transform-origin: right;
+          transition: transform .3s ease-in-out;
+          transform-origin: left;
+          transform: scaleX(1);
+        }
+      }
   }
+
+
   
