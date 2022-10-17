@@ -15,7 +15,7 @@ v-motion
       <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Examples of Laws</h1>
       <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p>
       <div class="flex mt-6 justify-center">
-        <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+        <div class="w-16 h-1 rounded-full inline-flex" style="background-color: #5d883a"></div>
       </div>
     </div>
     <div class="flex mx-auto flex-wrap mb-20">

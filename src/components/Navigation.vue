@@ -2,11 +2,11 @@
     <header class="text-gray-600 body-font sticky top-0 bg-color z-50">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-        <a class="mr-5 hover:text-gray-900 cursor-pointer" v-scroll-to="'#Testimonial'">Intro</a>
-        <a class="mr-5 hover:text-gray-900 cursor-pointer" v-scroll-to="'#Interview'">Interview</a>
-        <a class="mr-5 hover:text-gray-900 cursor-pointer" v-scroll-to="'#Video'">Video</a>
-        <a class="mr-5 hover:text-gray-900 cursor-pointer" v-scroll-to="'#Examples'">Examples</a>
-        <a class="hover:text-gray-900 cursor-pointer" v-scroll-to="'#Articles'">Articles</a>
+        <a class="mr-5 hover:text-gray-900 nav-link cursor-pointer" v-scroll-to="'#Testimonial'"><span class="intro">Intro</span></a>
+        <a class="mr-5 hover:text-gray-900 nav-link cursor-pointer" v-scroll-to="'#Interview'"><span class="interview">Interview</span></a>
+        <a class="mr-5 hover:text-gray-900 nav-link cursor-pointer" v-scroll-to="'#Video'"><span class="video">Video</span></a>
+        <a class="mr-5 hover:text-gray-900 nav-link cursor-pointer" v-scroll-to="'#Examples'"><span class="examples">Examples</span></a>
+        <a class="hover:text-gray-900 nav-link cursor-pointer" v-scroll-to="'#Articles'"><span class="articles">Articles</span></a>
         </nav>
         <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0 cursor-pointer" v-scroll-to="'#Hero'">
             <img src="../assets/images/logopng.png" alt="UX Laws" width="75" height="75"/>

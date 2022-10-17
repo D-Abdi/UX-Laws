@@ -18,6 +18,7 @@ v-motion
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Video: The Laws of UX
         <br class="hidden lg:inline-block">19 Psychological Design Principles
       </h1>
+      <span class="inline-block h-1 w-10 rounded mt-2 mb-4" style="background-color: #96881d"></span>
       <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
     </div>
   </div>

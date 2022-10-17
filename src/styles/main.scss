@@ -1,0 +1,99 @@
+$navColors: red, orange, yellow, green, blue, purple;
+$repeat: 10;
+
+.nav-link {
+    position: relative;
+    padding-bottom: .5rem;
+  
+    .intro:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      border-radius: 4px;
+      background-color: #297aa3;
+      bottom: 0;
+      left: 0;
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform .3s ease-in-out;
+    }
+    .intro:hover::before {
+      transform-origin: left;
+      transform: scaleX(1);
+    }
+
+    .interview:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        border-radius: 4px;
+        background-color: #a6307f;
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+      }
+      .interview:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+      }
+
+      .video:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        border-radius: 4px;
+        background-color: #96881d;
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+      }
+      .video:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+      }
+
+      .examples:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        border-radius: 4px;
+        background-color: #5d883a;
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+      }
+      .examples:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+      }
+
+      .articles:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        border-radius: 4px;
+        background-color: #de6717;
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+      }
+      .articles:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+      }
+
+  }
+  
