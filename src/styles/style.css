@@ -2,10 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --bg-color: #14151a;
+    --text-color: #f4f1d0;
+}
+
+html {
+    background-color: var(--bg-color);
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff!important;
+}
+
+a {
+    color: var(--text-color)!important;
 }
 
 p {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
+    color: var(--text-color)!important;
+}
+
+bg-color {
+    background-color: var(--bg-color);
+}
+
+text-color {
+    color: var(--text-color);
 }
