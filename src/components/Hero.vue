@@ -38,7 +38,7 @@
         <h1
           class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
         >
-          Laws of UX
+          The Laws of UX
         </h1>
         <p class="mb-8 leading-relaxed">
           Laws of UX is zijn complexe wetenschappelijk onderbouwde heuristieken
