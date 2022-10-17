@@ -20,7 +20,7 @@
         <a
           class="intro Hero mr-5 hover:text-gray-900 nav-link cursor-pointer"
           v-scroll-to="'#Reasons'"
-          ><span class="reasons Reasons">Reasons</span></a
+          ><span class="reasons Reasons">Redenen</span></a
         >
         <a
           class="mr-5 hover:text-gray-900 nav-link cursor-pointer"
@@ -35,12 +35,12 @@
         <a
           class="mr-5 hover:text-gray-900 nav-link cursor-pointer"
           v-scroll-to="'#Examples'"
-          ><span class="examples Examples">Examples</span></a
+          ><span class="examples Examples">Voorbeelden</span></a
         >
         <a
           class="hover:text-gray-900 nav-link cursor-pointer"
           v-scroll-to="'#Articles'"
-          ><span class="articles Articles">Articles</span></a
+          ><span class="articles Articles">Artikelen</span></a
         >
       </nav>
       <a
