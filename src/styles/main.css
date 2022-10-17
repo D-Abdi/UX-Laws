@@ -1,6 +1,7 @@
 .nav-link {
   position: relative;
   padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
 }
 .nav-link .intro:before {
   content: "";
