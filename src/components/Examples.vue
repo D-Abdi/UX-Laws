@@ -22,7 +22,7 @@
         <h1
           class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4"
         >
-          Examples of Laws
+          Voorbeelden van UX Laws
         </h1>
         <p
           class="
@@ -34,9 +34,7 @@
             text-gray-500s
           "
         >
-          Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-          taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi
-          pug.
+          Hoe worden UX Laws toegepast?
         </p>
         <div class="flex mt-6 justify-center">
           <div
