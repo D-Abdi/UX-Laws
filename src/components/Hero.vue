@@ -24,11 +24,16 @@
           Laws of UX
         </h1>
         <p class="mb-8 leading-relaxed">
-          Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
-          tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt
-          ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over
-          meditation PBR&amp;B pickled ennui celiac mlkshk freegan photo booth
-          af fingerstache pitchfork.
+          Laws of UX is zijn complexe wetenschappelijk onderbouwde heuristieken
+          die ontwerpers kunnen helpen keuzes te maken om zo het beste uit het
+          project te halen. Ontwerpers kunnen deze kennis gebruiken om meer
+          intuïtieve, mensgerichte producten en ervaringen te bouwen. In plaats
+          van gebruikers te dwingen zich aan te passen aan het ontwerp van een
+          product of ervaring, kunnen we enkele belangrijke principes uit de
+          psychologie gebruiken als leidraad om te ontwerpen op een manier die
+          is aangepast aan mensen. Met dank aan Jon Yablonski zijn de wetten
+          voor iedereen te zien op de site
+          <a class="underline" href="www.lawsofux.com">www.lawsofux.com</a>
         </p>
       </div>
     </div>
