@@ -55,7 +55,6 @@
             border-b-2
             title-font
             font-medium
-            bg-gray-100
             inline-flex
             items-center
             leading-none
@@ -63,19 +62,11 @@
             text-indigo-500
             tracking-wider
             rounded-t
+            cursor-pointer
           "
         >
-          <svg
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-5 h-5 mr-3"
-            viewBox="0 0 24 24"
-          >
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg
-          >STEP 1
+          <img src="../assets/images/fitts.png" class="w-5 h-5 mr-3" />
+          <span class="fitts-color">Fitts</span>
         </a>
         <a
           class="
@@ -94,19 +85,11 @@
             border-gray-200
             hover:text-gray-900
             tracking-wider
+            cursor-pointer
           "
         >
-          <svg
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-5 h-5 mr-3"
-            viewBox="0 0 24 24"
-          >
-            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg
-          >STEP 2
+          <img src="../assets/images/hicks.png" class="w-5 h-5 mr-3" />
+          <span class="hicks-color">Hick</span>
         </a>
         <a
           class="
@@ -125,20 +108,11 @@
             border-gray-200
             hover:text-gray-900
             tracking-wider
+            cursor-pointer
           "
         >
-          <svg
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-5 h-5 mr-3"
-            viewBox="0 0 24 24"
-          >
-            <circle cx="12" cy="5" r="3"></circle>
-            <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path></svg
-          >STEP 3
+          <img src="../assets/images/jacob.png" class="w-5 h-5 mr-3" />
+          <span class="jacobs-color">Jacob</span>
         </a>
         <a
           class="
@@ -157,40 +131,41 @@
             border-gray-200
             hover:text-gray-900
             tracking-wider
+            cursor-pointer
           "
         >
-          <svg
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-5 h-5 mr-3"
-            viewBox="0 0 24 24"
-          >
-            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-            <circle cx="12" cy="7" r="4"></circle></svg
-          >STEP 4
+          <img src="../assets/images/similar.png" class="w-5 h-5 mr-3" />
+          <span class="similar-color">Similarity</span>
         </a>
       </div>
-      <img
+      <!-- <img
         class="
-          xl:w-1/4
-          lg:w-1/3
-          md:w-1/2
-          w-2/3
+
+        "
+        alt="hero"
+        src="https://dummyimage.com/720x600"
+      /> -->
+      <div
+        class="
           block
           mx-auto
           mb-10
           object-cover object-center
           rounded
         "
-        alt="hero"
-        src="https://dummyimage.com/720x600"
-      />
+      >
+        <iframe
+          title="vimeo-player"
+          src="https://player.vimeo.com/video/256178248?h=99e6135ab6"
+          width="640"
+          height="360"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
       <div class="flex flex-col text-center w-full">
         <h1 class="text-xl font-medium title-font mb-4 text-gray-900">
-          Master Cleanse Reliac Heirloom
+          Fitt's Law
         </h1>
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
           Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
@@ -206,10 +181,8 @@
 <script>
 export default {
   name: "Reasons",
-  data () {
-    return {
-      
-    }
-  }
+  data() {
+    return {};
+  },
 };
 </script>

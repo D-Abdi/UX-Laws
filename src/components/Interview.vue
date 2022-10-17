@@ -54,7 +54,6 @@
           style="background-color: #a6307f"
         ></span>
         <p class="mb-8 leading-relaxed">
-          Synopsis:<br/><br/>
           Uit het gesprek kwam voort dat het kennen van de UX Laws zeer
           belangrijk is, maar dat het in het veel gevallen een kwestie is van de
           kennis je eigen maken zodat je het kan toepassen op maat. Elk project
