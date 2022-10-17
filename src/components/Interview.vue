@@ -54,10 +54,18 @@
           style="background-color: #a6307f"
         ></span>
         <p class="mb-8 leading-relaxed">
-          Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-          plant cold-pressed tacos poke beard tote bag. Heirloom echo park
-          mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon
-          try-hard chambray.
+          Synopsis:<br/><br/>
+          Uit het gesprek kwam voort dat het kennen van de UX Laws zeer
+          belangrijk is, maar dat het in het veel gevallen een kwestie is van de
+          kennis je eigen maken zodat je het kan toepassen op maat. Elk project
+          verschilt op een manier van elkaar, daarom is het onderzoekers nog
+          niet gelukt om een one-size fits all framework te maken voor hoe je
+          het moet toepassen. In plaats daarvan is het noodzakelijk om naar elke
+          casus te kijken welke tools er in je UX gereedschapskist het beste
+          passen. Ook helpt het kennen van de UX Laws en de bronnen om keuzes
+          met wetenschappelijk onderzoek te onderbouwen. Het onderzoek wat
+          bewijst dat het werkt is al gedaan, daarom is het slim om dat als
+          basis te gebruiken in plaats van dat men het wiel opnieuw uitvind.
         </p>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

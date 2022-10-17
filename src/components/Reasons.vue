@@ -62,24 +62,11 @@
               Wetenschappelijke basis
             </h2>
             <p class="leading-relaxed text-base">
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-              taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh
-              mi pug VHS try-hard.
+              De UX Laws zijn gebaseerd op wetenschappelijke studies binnen de
+              psycholgie. De onderzoeken naar mens-computer interacties hebben
+              geleid tot bevindingen die in de UX Laws zijn samengevat tot
+              praktische tips.
             </p>
-            <a class="mt-3 text-indigo-500 inline-flex items-center"
-              >Learn More
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
           </div>
         </div>
         <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
@@ -101,24 +88,11 @@
               Betere bruikbaarheid
             </h2>
             <p class="leading-relaxed text-base">
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-              taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh
-              mi pug VHS try-hard.
+              De UX Laws zijn bedoeld om de alghele bruikbaarheid van
+              applicaties te verbeteren door gebruik te maken van psychologische
+              heuristieken. Dit zorgt voor een onderzochte en bewezen basis
+              waarmee ontwerpers hun design keuzes kunnen onderbouwen.
             </p>
-            <a class="mt-3 text-indigo-500 inline-flex items-center"
-              >Learn More
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
           </div>
         </div>
         <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
@@ -141,24 +115,11 @@
               Esthetisch design
             </h2>
             <p class="leading-relaxed text-base">
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-              taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh
-              mi pug VHS try-hard.
+              Het volgen van desing principes zorgt er niet alleen voor dat
+              elementen bekend ogen voor gebruikers. Maar het heeft ook als
+              voordeel dat elementen er "natuurlijker" uit ziet en ook zo voelt in
+              gebruik.
             </p>
-            <a class="mt-3 text-indigo-500 inline-flex items-center"
-              >Learn More
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
           </div>
         </div>
       </div>
