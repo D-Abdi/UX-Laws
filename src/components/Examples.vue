@@ -206,5 +206,10 @@
 <script>
 export default {
   name: "Reasons",
+  data () {
+    return {
+      
+    }
+  }
 };
 </script>

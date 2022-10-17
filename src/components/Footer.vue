@@ -11,11 +11,9 @@ v-motion
   <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
     <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
       <img src="../assets/images/logopng.png" alt="UX Laws" width="75" height="75"/>
-      <span class="ml-3 text-xl">Tailblocks</span>
+      <span class="ml-3 text-xl">DaSi</span>
     </a>
-    <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2020 Tailblocks —
-      <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@knyttneve</a>
-    </p>
+    <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4 pt-1">© 2022 DaSi</p>
     <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <a class="text-gray-500">
         <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
