@@ -1,6 +1,7 @@
 <script setup>
   import Navigation from "./components/Navigation.vue"
   import Hero from "./components/Hero.vue"
+  import Intro from "./components/Intro.vue"
   import Testimonial from "./components/Testimonial.vue"
   import Reasons from "./components/Reasons.vue"
   import Interview from "./components/Interview.vue"
@@ -17,6 +18,8 @@
     <Navigation />
     <!-- Hero -->
     <Hero />
+    <!-- Intro -->
+    <Intro />
     <!-- Testimonial -->
     <Testimonial />
     <!-- Reasons to use UX Laws -->

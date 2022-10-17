@@ -14,8 +14,8 @@
       <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
         <a
           class="intro Hero mr-5 hover:text-gray-900 nav-link cursor-pointer"
-          v-scroll-to="'#Hero'"
-          ><span class="intro Hero">Intro</span></a
+          v-scroll-to="'#Intro'"
+          ><span class="intro Intro">Intro</span></a
         >        
         <a
           class="intro Hero mr-5 hover:text-gray-900 nav-link cursor-pointer"

@@ -41,16 +41,7 @@
           The Laws of UX
         </h1>
         <p class="mb-8 leading-relaxed">
-          Laws of UX is zijn complexe wetenschappelijk onderbouwde heuristieken
-          die ontwerpers kunnen helpen keuzes te maken om zo het beste uit het
-          project te halen. Ontwerpers kunnen deze kennis gebruiken om meer
-          intuïtieve, mensgerichte producten en ervaringen te bouwen. In plaats
-          van gebruikers te dwingen zich aan te passen aan het ontwerp van een
-          product of ervaring, kunnen we enkele belangrijke principes uit de
-          psychologie gebruiken als leidraad om te ontwerpen op een manier die
-          is aangepast aan mensen. Met dank aan Jon Yablonski zijn de wetten
-          voor iedereen te zien op de site
-          <a class="underline" href="www.lawsofux.com">www.lawsofux.com</a>
+          Een samenvatting waarom het kennen en gebruiken UX Laws een betere ontwerper van je zal maken.<br/> Daisy Romeijn & Daniel Abdi
         </p>
       </div>
     </div>

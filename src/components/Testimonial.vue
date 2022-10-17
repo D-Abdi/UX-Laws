@@ -31,7 +31,7 @@
         </svg>
         <p class="leading-relaxed text-lg">
           Laws of UX zijn gericht op het toegankelijk maken van complexe
-          psychologische heuristieken voor meer ontwerpers door middel van een
+          psychologische heuristieken voor ontwerpers door middel van een
           interactieve bron die informatie verzamelt die relevant is voor het
           ontwerpen van gebruikerservaringen.
         </p>
