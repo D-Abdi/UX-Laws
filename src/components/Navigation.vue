@@ -112,18 +112,15 @@ export default {
       const navItems = document.querySelectorAll("nav a span");
       let current = "";
 
-      console.log(sections, "section");
-
       sections.forEach((section) => {
         const sectionTop = section.offsetTop;
-        if (scrollY >= sectionTop - 350) {
+        if (scrollY >= sectionTop - 250) {
           current = section.getAttribute("id");
         }
       });
 
       navItems.forEach((a) => {
         a.classList.remove("active");
-        console.log(current, "A");
         if (a.classList.contains(current)) {
           a.classList.add("active");
         }
