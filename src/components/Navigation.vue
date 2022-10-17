@@ -2,7 +2,7 @@
     <header class="text-gray-600 body-font sticky top-0 bg-color z-50">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-        <a class="mr-5 hover:text-gray-900 nav-link cursor-pointer" v-scroll-to="'#Testimonial'"><span class="intro">Intro</span></a>
+        <a class="mr-5 hover:text-gray-900 nav-link cursor-pointer" v-scroll-to="'#Hero'"><span class="intro">Intro</span></a>
         <a class="mr-5 hover:text-gray-900 nav-link cursor-pointer" v-scroll-to="'#Interview'"><span class="interview">Interview</span></a>
         <a class="mr-5 hover:text-gray-900 nav-link cursor-pointer" v-scroll-to="'#Video'"><span class="video">Video</span></a>
         <a class="mr-5 hover:text-gray-900 nav-link cursor-pointer" v-scroll-to="'#Examples'"><span class="examples">Examples</span></a>

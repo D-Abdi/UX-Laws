@@ -10,6 +10,11 @@
     :visible="{
       opacity: 1,
       y: 0,
+      transition: {
+        type: 'spring',
+        stiffness: '150',
+        delay: 250,
+      },
     }"
   >
     <div class="container px-5 py-24 mx-auto">

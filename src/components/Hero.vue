@@ -1,5 +1,22 @@
 <template>
-  <section id="Hero" class="text-gray-600 body-font" v-motion-slide-top>
+  <section
+    id="Hero"
+    class="text-gray-600 body-font"
+    v-motion
+    :initial="{
+      opacity: 0,
+      y: 100,
+    }"
+    :enter="{
+      opacity: 1,
+      y: 0,
+      transition: {
+        type: 'spring',
+        stiffness: '150',
+        delay: 250,
+      },
+    }"
+  >
     <div
       class="
         container
