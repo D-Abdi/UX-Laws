@@ -1,5 +1,7 @@
 <template>
-<section class="text-gray-600 body-font"
+<section 
+id="Reasons"
+class="text-gray-600 body-font"
 v-motion
   :initial="{
     opacity: 0,
@@ -15,7 +17,7 @@ v-motion
       <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Reasons to use UX Laws</h1>
       <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p>
       <div class="flex mt-6 justify-center">
-        <div class="w-16 h-1 rounded-full inline-flex" style="background-color: #297aa3"></div>
+        <div class="w-16 h-1 rounded-full inline-flex" style="background-color: #e95444"></div>
       </div>
     </div>
     <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
