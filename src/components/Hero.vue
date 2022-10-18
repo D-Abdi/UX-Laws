@@ -43,7 +43,7 @@
         <p class="mb-8 leading-relaxed">
           Een samenvatting waarom het kennen en gebruiken UX Laws een betere
           ontwerper van je zal maken.<br />
-          Daisy Romeijn & Daniel Abdi
+          Simone Romeijn & Daniel Abdi
         </p>
         <div
           class="flex justify-center"
