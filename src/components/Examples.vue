@@ -61,12 +61,17 @@
             tracking-wider
             rounded-t
             cursor-pointer
+            animate-example
           "
-          :class="{fittsBorder: activeExample === examples.fitts}"
+          :class="{
+            fittsBorder: activeExample === examples.fitts,
+          }"
           @click="activeExample = examples.fitts"
         >
           <img src="../assets/images/fitts.png" class="w-5 h-5 mr-3" />
-          <span class="fitts-color">Fitts</span>
+          <span 
+          class="fitts-color"
+          >Fitts</span>
         </a>
         <a
           class="
@@ -86,8 +91,9 @@
             hover:text-gray-900
             tracking-wider
             cursor-pointer
+            animate-example
           "
-          :class="{hicksBorder: activeExample === examples.hick}"
+          :class="{ hicksBorder: activeExample === examples.hick }"
           @click="activeExample = examples.hick"
         >
           <img src="../assets/images/hicks.png" class="w-5 h-5 mr-3" />
@@ -111,8 +117,9 @@
             hover:text-gray-900
             tracking-wider
             cursor-pointer
+            animate-example
           "
-          :class="{jacobsBorder: activeExample === examples.jacob}"
+          :class="{ jacobsBorder: activeExample === examples.jacob }"
           @click="activeExample = examples.jacob"
         >
           <img src="../assets/images/jacob.png" class="w-5 h-5 mr-3" />
@@ -136,8 +143,9 @@
             hover:text-gray-900
             tracking-wider
             cursor-pointer
+            animate-example
           "
-          :class="{similarBorder: activeExample === examples.similar}"
+          :class="{ similarBorder: activeExample === examples.similar }"
           @click="activeExample = examples.similar"
         >
           <img src="../assets/images/similar.png" class="w-5 h-5 mr-3" />
@@ -203,7 +211,7 @@ export default {
           hoe langer het duurt voordat de gebruiker een beslissing neemt met welke hij wil communiceren. 
           Gebruikers die worden gebombardeerd met keuzes, moeten de tijd nemen om te interpreteren en te beslissen, 
           waardoor ze werk krijgen dat ze niet willen.`,
-          video: "https://player.vimeo.com/video/256178253?h=5f9b9dc1c4"
+          video: "https://player.vimeo.com/video/256178253?h=5f9b9dc1c4",
         },
         jacob: {
           title: "Jabobs's Law",
@@ -215,7 +223,7 @@ export default {
           (voormalig vice-president onderzoek bij Apple Computer) oprichtte. beweging
           voor snelle en goedkope verbeteringen van gebruikersinterfaces en heeft 
           verschillende bruikbaarheidsmethoden uitgevonden, waaronder heuristische evaluatie.`,
-          video: "https://player.vimeo.com/video/256178259?h=411f4d1f8d"
+          video: "https://player.vimeo.com/video/256178259?h=411f4d1f8d",
         },
         similar: {
           title: "Law of Similarity",
@@ -226,8 +234,8 @@ export default {
            waardoor ze worden gescheiden van andere elementen in een ontwerp. 
            Menselijke ogen zijn goed in het opvullen van "gaten" of het verbinden van "punten". 
            Het gebeurt van nature.`,
-          video: "https://player.vimeo.com/video/256178270?h=d185f349dd"
-        }
+          video: "https://player.vimeo.com/video/256178270?h=d185f349dd",
+        },
       },
       activeExample: null,
     };
