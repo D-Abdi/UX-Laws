@@ -100,7 +100,7 @@
             </div>
           </div>
         </div>
-        <div class="lg:w-1/3 lg:mb-0 p-4 mx-12">
+        <div class="lg:w-1/3 lg:mb-0 p-4 mx-12 mt-10 md:mt-0">
           <div class="h-full text-center">
             <img
               alt="testimonial"

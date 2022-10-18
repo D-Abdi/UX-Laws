@@ -25,8 +25,8 @@
         px-5
         py-24
         md:flex-row
-        flex-col
         items-center
+        flex-col-reverse
       "
     >
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -57,7 +57,7 @@
           Psychological Design Principles
         </h1>
         <span
-          class="inline-block h-1 w-10 rounded mt-2 mb-4"
+          class="inline-block h-1 w-10 rounded mt-2 mb-4 self-center md:self-start"
           style="background-color: #96881d"
         ></span>
         <p class="mb-8 leading-relaxed">

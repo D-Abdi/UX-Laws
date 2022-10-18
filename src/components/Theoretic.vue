@@ -18,7 +18,7 @@
     }"
   >
     <div class="container px-5 py-24 mx-auto flex flex-wrap flex-col">
-      <div class="text-center mb-10">
+      <div class="text-center">
         <h1
           class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4"
         >
@@ -43,7 +43,7 @@
           ></div>
         </div>
       </div>
-      <div class="flex mx-auto flex-wrap mb-20">
+      <div class="flex mx-auto flex-wrap mb-10">
         <a
           class="
             sm:px-6
