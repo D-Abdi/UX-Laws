@@ -13,30 +13,30 @@
 </script>
 
 <template>
-<body>
-    <!-- Navigation -->
-    <Navigation />
-    <!-- Hero -->
-    <Hero />
-    <!-- Intro -->
-    <Intro />
-    <!-- Testimonial -->
-    <Testimonial />
-    <!-- Reasons to use UX Laws -->
-    <Reasons />
-    <!-- Interview about UX in gaming -->
-    <Interview />
-    <!-- Youtube video about the 19 design principles -->
-    <Video />
-    <!-- Examples of UX -->
-    <Examples />
-    <!-- Articles about pratical UX Laws -->
-    <Articles />
-    <!-- Creators recognition -->
-    <Creators />
-    <!-- Footer -->
-    <Footer />
-</body>
+  <body>
+      <!-- Navigation -->
+      <Navigation />
+      <!-- Hero -->
+      <Hero />
+      <!-- Intro -->
+      <Intro />
+      <!-- Testimonial -->
+      <Testimonial />
+      <!-- Reasons to use UX Laws -->
+      <Reasons />
+      <!-- Interview about UX in gaming -->
+      <Interview />
+      <!-- Youtube video about the 19 design principles -->
+      <Video />
+      <!-- Examples of UX -->
+      <Examples />
+      <!-- Articles about pratical UX Laws -->
+      <Articles />
+      <!-- Creators recognition -->
+      <Creators />
+      <!-- Footer -->
+      <Footer />
+  </body>
 </template>
 
 <style scoped></style>
