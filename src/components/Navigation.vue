@@ -35,12 +35,12 @@
         <a
           class="mr-5 hover:text-gray-900 nav-link cursor-pointer"
           v-scroll-to="'#Theoretic'"
-          ><span class="theoretic Theoretic">Theoretic</span></a
+          ><span class="theoretic Theoretic">Theorie</span></a
         >
         <a
           class="mr-5 hover:text-gray-900 nav-link cursor-pointer"
           v-scroll-to="'#Practical'"
-          ><span class="Practical Practical">Practical</span></a
+          ><span class="Practical Practical">Voorbeelden</span></a
         >
         <a
           class="hover:text-gray-900 nav-link cursor-pointer"

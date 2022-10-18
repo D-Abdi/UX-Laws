@@ -39,8 +39,8 @@
           <div class="flex relative">
             <img
               alt="gallery"
-              class="absolute inset-0 w-full h-full object-cover object-center"
-              src="https://dummyimage.com/600x360"
+              class="absolute inset-0 w-full h-full object-fill object-center"
+              src="../assets/images/examples/cb.png"
             />
             <div
               class="
@@ -49,12 +49,12 @@
                 relative
                 z-10
                 w-full
-                border-4 border-gray-800
-                bg-gray-900
+                border-4 
                 opacity-0
                 hover:opacity-100
                 h-60
               "
+              style="background-color: #d87b2e; border-color: #f4d74f;"
             >
               <h2
                 class="
@@ -69,7 +69,7 @@
                 Fitts's Law
               </h2>
               <h1 class="title-font text-lg font-medium text-white mb-3">
-                Kickstarter
+                Cool Blue
               </h1>
               <p class="leading-relaxed">
                 De knop is rechts van de afbeelding geplaatst om op de westerse
@@ -84,8 +84,8 @@
           <div class="flex relative">
             <img
               alt="gallery"
-              class="absolute inset-0 w-full h-full object-cover object-center"
-              src="https://dummyimage.com/601x361"
+              class="absolute inset-0 w-full h-full object-fill object-center"
+              src="../assets/images/examples/airbnb.png"
             />
             <div
               class="
@@ -94,12 +94,12 @@
                 relative
                 z-10
                 w-full
-                border-4 border-gray-800
-                bg-gray-900
+                border-4
                 opacity-0
                 hover:opacity-100
                 h-60
               "
+              style="background-color: #c2185e; border-color: #f1206b;"
             >
               <h2
                 class="
@@ -117,7 +117,7 @@
                 AirBnB
               </h1>
               <p class="leading-relaxed">
-                Zij halen alle keuzes weg en laten de gebruiker zelf vertellen
+                AirBnB haalt alle keuzes weg en laten de gebruiker zelf vertellen
                 waar zij voor kwamen. Dit doen zij door alleen een zoekbalk aan
                 te bieden op de homepage.
               </p>
@@ -128,8 +128,8 @@
           <div class="flex relative">
             <img
               alt="gallery"
-              class="absolute inset-0 w-full h-full object-cover object-center"
-              src="https://dummyimage.com/603x363"
+              class="absolute inset-0 w-full h-full object-fill object-center"
+              src="../assets/images/examples/bershka.png"
             />
             <div
               class="
@@ -138,12 +138,12 @@
                 relative
                 z-10
                 w-full
-                border-4 border-gray-800
-                bg-gray-900
+                border-4 
                 opacity-0
                 hover:opacity-100
                 h-60
               "
+              style="background-color: #3a8d3d; border-color: #02e677;"
             >
               <h2
                 class="
@@ -172,7 +172,7 @@
             <img
               alt="gallery"
               class="absolute inset-0 w-full h-full object-cover object-center"
-              src="https://dummyimage.com/602x362"
+              src="../assets/images/examples/google.png"
             />
             <div
               class="
@@ -181,12 +181,12 @@
                 relative
                 z-10
                 w-full
-                border-4 border-gray-800
-                bg-gray-900
+                border-4
                 opacity-0
                 hover:opacity-100
                 h-60
               "
+              style="background-color: #75000C; border-color: #F05350;"
             >
               <h2
                 class="
@@ -198,7 +198,7 @@
                   mb-1
                 "
               >
-                Law of Simplicity
+                Law of Similarity
               </h2>
               <h1 class="title-font text-lg font-medium text-white mb-3">
                 Google
@@ -216,8 +216,8 @@
           <div class="flex relative">
             <img
               alt="gallery"
-              class="absolute inset-0 w-full h-full object-cover object-center"
-              src="https://dummyimage.com/605x365"
+              class="absolute inset-0 w-full h-full object-fill object-center"
+              src="../assets/images/examples/videoland.png"
             />
             <div
               class="
@@ -232,6 +232,7 @@
                 hover:opacity-100
                 h-60
               "
+              style="background-color: #b71828; border-color: #F05350;"
             >
               <h2
                 class="
@@ -259,8 +260,8 @@
           <div class="flex relative">
             <img
               alt="gallery"
-              class="absolute inset-0 w-full h-full object-cover object-center"
-              src="https://dummyimage.com/606x366"
+              class="absolute inset-0 w-full h-full object-fill object-center"
+              src="../assets/images/examples/zara.png"
             />
             <div
               class="
@@ -275,6 +276,7 @@
                 hover:opacity-100
                 h-60
               "
+              style="background-color: #cb0c58; border-color: #ff6296;"
             >
               <h2
                 class="
