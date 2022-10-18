@@ -45,7 +45,7 @@
             <div
               class="
                 px-8
-                py-10
+                py-4
                 relative
                 z-10
                 w-full
@@ -90,7 +90,7 @@
             <div
               class="
                 px-8
-                py-10
+                py-4
                 relative
                 z-10
                 w-full
@@ -134,7 +134,7 @@
             <div
               class="
                 px-8
-                py-10
+                py-4
                 relative
                 z-10
                 w-full
@@ -177,7 +177,7 @@
             <div
               class="
                 px-8
-                py-10
+                py-4
                 relative
                 z-10
                 w-full
@@ -222,7 +222,7 @@
             <div
               class="
                 px-8
-                py-10
+                py-4
                 relative
                 z-10
                 w-full
@@ -266,7 +266,7 @@
             <div
               class="
                 px-8
-                py-10
+                py-4
                 relative
                 z-10
                 w-full
