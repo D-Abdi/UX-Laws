@@ -159,6 +159,10 @@
     transition: .3s ease all;
   }
 
+  .animate-example:hover {
+    transform: translateY(-5px);
+  }
+
   .fitts-color {
     color: #D87B2E;
   }

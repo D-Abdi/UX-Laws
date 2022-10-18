@@ -61,17 +61,17 @@
             tracking-wider
             rounded-t
             cursor-pointer
-            animate-example
+            transition-all
           "
           :class="{
             fittsBorder: activeExample === examples.fitts,
           }"
           @click="activeExample = examples.fitts"
         >
-          <img src="../assets/images/fitts.png" class="w-5 h-5 mr-3" />
-          <span 
-          class="fitts-color"
-          >Fitts</span>
+          <div class="animate-example inline-flex">
+            <img src="../assets/images/fitts.png" class="w-5 h-5 mr-3" />
+            <span class="fitts-color">Fitts</span>
+          </div>
         </a>
         <a
           class="
@@ -91,13 +91,15 @@
             hover:text-gray-900
             tracking-wider
             cursor-pointer
-            animate-example
+            transition-all
           "
           :class="{ hicksBorder: activeExample === examples.hick }"
           @click="activeExample = examples.hick"
         >
+        <div class="animate-example inline-flex">
           <img src="../assets/images/hicks.png" class="w-5 h-5 mr-3" />
           <span class="hicks-color">Hick</span>
+        </div>
         </a>
         <a
           class="
@@ -117,13 +119,15 @@
             hover:text-gray-900
             tracking-wider
             cursor-pointer
-            animate-example
+            transition-all
           "
           :class="{ jacobsBorder: activeExample === examples.jacob }"
           @click="activeExample = examples.jacob"
         >
+        <div class="animate-example inline-flex">
           <img src="../assets/images/jacob.png" class="w-5 h-5 mr-3" />
           <span class="jacobs-color">Jacob</span>
+        </div>
         </a>
         <a
           class="
@@ -143,13 +147,15 @@
             hover:text-gray-900
             tracking-wider
             cursor-pointer
-            animate-example
+            transition-all
           "
           :class="{ similarBorder: activeExample === examples.similar }"
           @click="activeExample = examples.similar"
         >
+        <div class="animate-example inline-flex">
           <img src="../assets/images/similar.png" class="w-5 h-5 mr-3" />
           <span class="similar-color">Similarity</span>
+        </div>
         </a>
       </div>
       <div class="block mx-auto mb-10 object-cover object-center rounded">
