@@ -13,7 +13,7 @@
       "
     >
       <a
-        class="flex title-font font-medium items-center text-white mb-4 md:mb-0 cursor-pointer"
+        class="flex title-font font-medium items-center text-white cursor-pointer"
         v-scroll-to="'#Hero'"
       >
         <img
