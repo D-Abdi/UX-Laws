@@ -56,7 +56,7 @@
         <h1
           class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
         >
-          What zijn de wetten van UX?
+          What zijn de Laws of UX?
         </h1>
         <span
           class="inline-block h-1 w-10 rounded mt-2 mb-4 self-center md:self-start"
