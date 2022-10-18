@@ -13,7 +13,7 @@
       "
     >
       <a
-        class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
+        class="flex title-font font-medium items-center text-white mb-4 md:mb-0 cursor-pointer"
         v-scroll-to="'#Hero'"
       >
         <img
@@ -22,7 +22,7 @@
           width="75"
           height="75"
         />
-        <span class="ml-3 text-xl">DaSi</span>
+        <span class="text-xl">DaSi</span>
       </a>
       <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
         <a
@@ -56,12 +56,12 @@
           ><span class="Practical Practical">Voorbeelden</span></a
         >
         <a
-          class="hover:text-gray-900 nav-link cursor-pointer"
+          class="mr-5 hover:text-gray-900 nav-link cursor-pointer"
           v-scroll-to="'#Articles'"
           ><span class="articles Articles">Artikelen</span>
         </a>
       </nav>
-      <div class="inline-flex lg:justify-end ml-5 lg:ml-0">
+      <div class="inline-flex lg:justify-end">
         <a
           style="color: #14151a !important"
           href="https://github.com/D-Abdi/UX-Laws"
