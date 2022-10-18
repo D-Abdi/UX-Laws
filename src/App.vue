@@ -6,7 +6,8 @@
   import Reasons from "./components/Reasons.vue"
   import Interview from "./components/Interview.vue"
   import Video from "./components/Video.vue"
-  import Examples from "./components/Examples.vue"
+  import Theoretic from "./components/Theoretic.vue"
+  import Practical from "./components/Practical.vue"
   import Articles from "./components/Articles.vue"
   import Creators from "./components/Creators.vue"
   import Footer from "./components/Footer.vue"
@@ -29,7 +30,9 @@
       <!-- Youtube video about the 19 design principles -->
       <Video />
       <!-- Examples of UX -->
-      <Examples />
+      <Theoretic />
+      <!-- UX in practice -->
+      <Practical />
       <!-- Articles about pratical UX Laws -->
       <Articles />
       <!-- Creators recognition -->

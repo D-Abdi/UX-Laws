@@ -1,6 +1,6 @@
 <template>
   <section
-    id="Examples"
+    id="Theoretic"
     class="text-gray-600 body-font"
     v-motion
     :initial="{
@@ -18,11 +18,11 @@
     }"
   >
     <div class="container px-5 py-24 mx-auto flex flex-wrap flex-col">
-      <div class="text-center mb-20">
+      <div class="text-center mb-10">
         <h1
           class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4"
         >
-          Voorbeelden van UX Laws
+          Hoe werken de wetten van UX?
         </h1>
         <p
           class="
@@ -34,7 +34,7 @@
             text-gray-500s
           "
         >
-          Hoe worden UX Laws toegepast?
+          Vier veel voorkomende UX Laws, waar ze vandaan komen en hoe ze werken.
         </p>
         <div class="flex mt-6 justify-center">
           <div

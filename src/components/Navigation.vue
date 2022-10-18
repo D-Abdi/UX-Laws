@@ -34,14 +34,19 @@
         >
         <a
           class="mr-5 hover:text-gray-900 nav-link cursor-pointer"
-          v-scroll-to="'#Examples'"
-          ><span class="examples Examples">Voorbeelden</span></a
+          v-scroll-to="'#Theoretic'"
+          ><span class="theoretic Theoretic">Theoretic</span></a
+        >
+        <a
+          class="mr-5 hover:text-gray-900 nav-link cursor-pointer"
+          v-scroll-to="'#Practical'"
+          ><span class="Practical Practical">Practical</span></a
         >
         <a
           class="hover:text-gray-900 nav-link cursor-pointer"
           v-scroll-to="'#Articles'"
-          ><span class="articles Articles">Artikelen</span></a
-        >
+          ><span class="articles Articles">Artikelen</span>
+        </a>
       </nav>
       <a
         class="
@@ -68,7 +73,11 @@
         <span class="ml-3 text-xl">DaSi</span>
       </a>
       <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-        <a style="color: #14151a!important" href="https://github.com/D-Abdi/UX-Laws" target=”_blank”>
+        <a
+          style="color: #14151a !important"
+          href="https://github.com/D-Abdi/UX-Laws"
+          target="”_blank”"
+        >
           <button
             class="
               inline-flex

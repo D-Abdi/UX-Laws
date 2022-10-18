@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "watch": "sass src/styles/main.scss src/styles/main.css --watch"
   },
   "dependencies": {
     "@vueuse/motion": "^2.0.0-beta.12",

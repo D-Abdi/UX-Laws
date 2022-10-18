@@ -71,7 +71,7 @@
   transform-origin: left;
   transform: scaleX(1);
 }
-.nav-link .examples:before {
+.nav-link .theoretic:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -84,7 +84,24 @@
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
 }
-.nav-link .examples:hover::before {
+.nav-link .theoretic:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.nav-link .Practical:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #6c88c1;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+.nav-link .Practical:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
