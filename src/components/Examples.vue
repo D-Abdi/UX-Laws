@@ -58,12 +58,12 @@
             inline-flex
             items-center
             leading-none
-            border-indigo-500
-            text-indigo-500
             tracking-wider
             rounded-t
             cursor-pointer
           "
+          :class="{fittsBorder: activeExample === examples.fitts}"
+          @click="activeExample = examples.fitts"
         >
           <img src="../assets/images/fitts.png" class="w-5 h-5 mr-3" />
           <span class="fitts-color">Fitts</span>
@@ -87,6 +87,8 @@
             tracking-wider
             cursor-pointer
           "
+          :class="{hicksBorder: activeExample === examples.hick}"
+          @click="activeExample = examples.hick"
         >
           <img src="../assets/images/hicks.png" class="w-5 h-5 mr-3" />
           <span class="hicks-color">Hick</span>
@@ -110,6 +112,8 @@
             tracking-wider
             cursor-pointer
           "
+          :class="{jacobsBorder: activeExample === examples.jacob}"
+          @click="activeExample = examples.jacob"
         >
           <img src="../assets/images/jacob.png" class="w-5 h-5 mr-3" />
           <span class="jacobs-color">Jacob</span>
@@ -133,30 +137,17 @@
             tracking-wider
             cursor-pointer
           "
+          :class="{similarBorder: activeExample === examples.similar}"
+          @click="activeExample = examples.similar"
         >
           <img src="../assets/images/similar.png" class="w-5 h-5 mr-3" />
           <span class="similar-color">Similarity</span>
         </a>
       </div>
-      <!-- <img
-        class="
-
-        "
-        alt="hero"
-        src="https://dummyimage.com/720x600"
-      /> -->
-      <div
-        class="
-          block
-          mx-auto
-          mb-10
-          object-cover object-center
-          rounded
-        "
-      >
+      <div class="block mx-auto mb-10 object-cover object-center rounded">
         <iframe
           title="vimeo-player"
-          src="https://player.vimeo.com/video/256178248?h=99e6135ab6"
+          :src="activeExample.video"
           width="640"
           height="360"
           frameborder="0"
@@ -165,13 +156,13 @@
       </div>
       <div class="flex flex-col text-center w-full">
         <h1 class="text-xl font-medium title-font mb-4 text-gray-900">
-          Fitt's Law
+          {{ activeExample.title }}
         </h1>
-        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-          Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-          gentrify, subway tile poke farm-to-table. Franzen you probably haven't
-          heard of them man bun deep jianbing selfies heirloom prism food truck
-          ugh squid celiac humblebrag.
+        <p
+          class="lg:w-2/3 mx-auto leading-relaxed text-base"
+          v-if="activeExample"
+        >
+          {{ activeExample.text }}
         </p>
       </div>
     </div>
@@ -182,7 +173,67 @@
 export default {
   name: "Reasons",
   data() {
-    return {};
+    return {
+      examples: {
+        fitts: {
+          title: "Fitt's Law",
+          text: `1954, psycholoog Paul Fitts, die het menselijke motorsysteem
+          onderzocht, toonde aan dat de tijd die nodig is om naar een doel te
+          gaan, afhangt van de afstand tot het doel, maar omgekeerd evenredig is
+          met de grootte ervan. Volgens zijn wet resulteren snelle bewegingen en
+          kleine doelen in grotere foutenpercentages, vanwege de wisselwerking
+          tussen snelheid en nauwkeurigheid. Hoewel er meerdere varianten van de
+          wet van Fitts bestaan, omvatten ze allemaal dit idee. De wet van Fitts
+          wordt veel toegepast in user experience (UX) en user interface (UI)
+          design. Deze wet had bijvoorbeeld invloed op de conventie om
+          interactieve knoppen groot te maken (vooral op met de vinger bediende
+          mobiele apparaten) - kleinere knoppen zijn moeilijker (en
+          tijdrovender) om op te klikken. Evenzo moet de afstand tussen het
+          taak-/aandachtsgebied van een gebruiker en de taakgerelateerde knop zo
+          kort mogelijk worden gehouden.`,
+          video: "https://player.vimeo.com/video/256178248?h=99e6135ab6",
+        },
+        hick: {
+          title: "Hick's Law",
+          text: `Hick's Law (of de Hick-Hyman Law) is vernoemd naar een Brits en 
+          een Amerikaans psycholoogteam van William Edmund Hick en Ray Hyman. 
+          In 1952 ging dit paar op zoek naar de relatie tussen het aantal aanwezige 
+          stimuli en de reactietijd van een individu op een bepaalde stimulus. 
+          Zoals je zou verwachten, hoe meer stimuli om uit te kiezen, 
+          hoe langer het duurt voordat de gebruiker een beslissing neemt met welke hij wil communiceren. 
+          Gebruikers die worden gebombardeerd met keuzes, moeten de tijd nemen om te interpreteren en te beslissen, 
+          waardoor ze werk krijgen dat ze niet willen.`,
+          video: "https://player.vimeo.com/video/256178253?h=5f9b9dc1c4"
+        },
+        jacob: {
+          title: "Jabobs's Law",
+          text: `"Gebruikers brengen het grootste deel van hun tijd op andere sites door, 
+          dit betekent dat gebruikers er de voorkeur aan geven dat uw site
+           op dezelfde manier werkt als alle andere sites die ze al kennen." 
+           De wet van Jakob is bedacht door Jakob Nielsen, een gebruikersadvocaat en 
+           directeur van de Nielsen Norman Group, die hij samen met dr. Donald A. Norman
+          (voormalig vice-president onderzoek bij Apple Computer) oprichtte. beweging
+          voor snelle en goedkope verbeteringen van gebruikersinterfaces en heeft 
+          verschillende bruikbaarheidsmethoden uitgevonden, waaronder heuristische evaluatie.`,
+          video: "https://player.vimeo.com/video/256178259?h=411f4d1f8d"
+        },
+        similar: {
+          title: "Law of Similarity",
+          text: `Het menselijk oog heeft de neiging om soortgelijke elementen in
+           een ontwerp waar te nemen als een compleet beeld, vorm of groep, zelfs 
+           als die elementen gescheiden zijn. Het brein lijkt een verband te leggen 
+           tussen elementen van vergelijkbare aard. Vervolgens nemen we ze waar in een relatie met elkaar, 
+           waardoor ze worden gescheiden van andere elementen in een ontwerp. 
+           Menselijke ogen zijn goed in het opvullen van "gaten" of het verbinden van "punten". 
+           Het gebeurt van nature.`,
+          video: "https://player.vimeo.com/video/256178270?h=d185f349dd"
+        }
+      },
+      activeExample: null,
+    };
+  },
+  beforeMount() {
+    this.activeExample = this.examples.fitts;
   },
 };
 </script>

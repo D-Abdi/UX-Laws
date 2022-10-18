@@ -127,16 +127,32 @@
   color: #D87B2E;
 }
 
+.fittsBorder {
+  border-color: #D87B2E;
+}
+
 .hicks-color {
   color: #C2185D;
+}
+
+.hicksBorder {
+  border-color: #C2185D;
 }
 
 .jacobs-color {
   color: #30903E;
 }
 
+.jacobsBorder {
+  border-color: #30903E;
+}
+
 .similar-color {
   color: #F05350;
+}
+
+.similarBorder {
+  border-color: #F05350;
 }
 
 /*# sourceMappingURL=main.css.map */
