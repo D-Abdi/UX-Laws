@@ -13,7 +13,7 @@ v-motion
       <img src="../assets/images/logopng.png" alt="UX Laws" width="75" height="75"/>
       <span class="ml-3 text-xl">DaSi</span>
     </a>
-    <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4 pt-1">© 2022 DaSi</p>
+    <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4 pt-1">© 2022</p>
     <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <a class="text-gray-500">
         <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
