@@ -68,7 +68,7 @@
           }"
           @click="activeExample = examples.fitts"
         >
-          <div class="animate-example inline-flex">
+          <div class="animate-example inline-flex items-center">
             <img src="../assets/images/fitts.png" class="w-5 h-5 mr-3" />
             <span class="fitts-color">Fitts</span>
           </div>
@@ -96,7 +96,7 @@
           :class="{ hicksBorder: activeExample === examples.hick }"
           @click="activeExample = examples.hick"
         >
-        <div class="animate-example inline-flex">
+        <div class="animate-example inline-flex items-center">
           <img src="../assets/images/hick.png" class="w-5 h-5 mr-3" />
           <span class="hicks-color">Hick</span>
         </div>
@@ -124,7 +124,7 @@
           :class="{ jacobsBorder: activeExample === examples.jacob }"
           @click="activeExample = examples.jacob"
         >
-        <div class="animate-example inline-flex">
+        <div class="animate-example inline-flex items-center">
           <img src="../assets/images/jacobslaw.png" class="w-5 h-5 mr-3" />
           <span class="jacobs-color">Jacob</span>
         </div>
@@ -152,7 +152,7 @@
           :class="{ similarBorder: activeExample === examples.similar }"
           @click="activeExample = examples.similar"
         >
-        <div class="animate-example inline-flex">
+        <div class="animate-example inline-flex items-center">
           <img src="../assets/images/similar.png" class="w-5 h-5 mr-3" />
           <span class="similar-color">Similarity</span>
         </div>
