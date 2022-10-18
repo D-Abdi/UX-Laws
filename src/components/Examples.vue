@@ -97,7 +97,7 @@
           @click="activeExample = examples.hick"
         >
         <div class="animate-example inline-flex">
-          <img src="../assets/images/hicks.png" class="w-5 h-5 mr-3" />
+          <img src="src\assets\images\hicks.png" class="w-5 h-5 mr-3" />
           <span class="hicks-color">Hick</span>
         </div>
         </a>
