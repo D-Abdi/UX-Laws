@@ -4,7 +4,7 @@ v-motion
   :initial="{
     opacity: 0
   }"
-  :visible="{
+  :visibleOnce="{
     opacity: 1
   }"
 >
