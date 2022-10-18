@@ -68,11 +68,12 @@
         </p>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img
-          class="object-cover object-center rounded"
-          alt="hero"
-          src="https://dummyimage.com/720x600"
-        />
+        <iframe
+          src="https://drive.google.com/file/d/1euvSFFz74WihNYPNU-JlcYWpY0ZgKVb_/preview"
+          width="500"
+          height="400"
+          allow="autoplay"
+        ></iframe>
       </div>
     </div>
   </section>

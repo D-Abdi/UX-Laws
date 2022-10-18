@@ -41,8 +41,40 @@
           The Laws of UX
         </h1>
         <p class="mb-8 leading-relaxed">
-          Een samenvatting waarom het kennen en gebruiken UX Laws een betere ontwerper van je zal maken.<br/> Daisy Romeijn & Daniel Abdi
+          Een samenvatting waarom het kennen en gebruiken UX Laws een betere
+          ontwerper van je zal maken.<br />
+          Daisy Romeijn & Daniel Abdi
         </p>
+        <div
+          class="flex justify-center"
+          v-scroll-to="'#Intro'"
+          v-motion
+          :initial="{
+            opacity: 0,
+            y: 100,
+          }"
+          :enter="{
+            opacity: 1,
+            y: 0,
+            transition: {
+              type: 'spring',
+              stiffness: '150',
+              delay: 400,
+            },
+          }"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="#f4f1d0"
+          >
+            <path
+              d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   </section>
