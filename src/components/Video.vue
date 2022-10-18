@@ -62,10 +62,11 @@
           style="background-color: #96881d"
         ></span>
         <p class="mb-8 leading-relaxed">
-          Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-          plant cold-pressed tacos poke beard tote bag. Heirloom echo park
-          mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon
-          try-hard chambray.
+          Er staat een bijzonder informatieve video over de 19 design principes
+          op Youtube. De uitleg matched heel erg met wat er op de website van
+          www.lawsofux.com staat, maar Joseph van www.learnsketch.com vat het
+          beknopt samen voor degenen die liever beeld materiaal hebben dan
+          tekst.
         </p>
       </div>
     </div>
