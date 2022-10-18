@@ -79,7 +79,7 @@
                 gekleurd zodat het makkelijker gevonden wordt en mee te
                 interacteren valt.
                 <a
-                  href="https://uxplanet.org/7-important-ux-laws-with-examples-c1ff02a05488"
+                  href="https://lawsofux.com/fittss-law/"
                   target="_blank"
                   class="cursor-pointer underline underline-offset-2"
                   >Lees meer
@@ -131,7 +131,7 @@
                 vertellen waar zij voor kwamen. Dit doen zij door alleen een
                 zoekbalk aan te bieden op de homepage.
                 <a
-                  href="https://uxplanet.org/7-important-ux-laws-with-examples-c1ff02a05488"
+                  href="https://lawsofux.com/hicks-law/"
                   target="_blank"
                   class="cursor-pointer underline underline-offset-2"
                   >Lees meer
@@ -182,7 +182,7 @@
                 Het winkelmandje staat rechtsboven zoals vrijwel alle web
                 winkels dat hebben.
                 <a
-                  href="https://uxplanet.org/7-important-ux-laws-with-examples-c1ff02a05488"
+                  href="https://lawsofux.com/jakobs-law/"
                   target="_blank"
                   class="cursor-pointer underline underline-offset-2"
                   >Lees meer
@@ -235,7 +235,7 @@
                 links een andere kleur hebben in tegenstelling tot links die dat
                 niet zijn.
                 <a
-                  href="https://uxplanet.org/7-important-ux-laws-with-examples-c1ff02a05488"
+                  href="https://lawsofux.com/law-of-similarity/"
                   target="_blank"
                   class="cursor-pointer underline underline-offset-2"
                   >Lees meer
@@ -289,7 +289,7 @@
                 Op deze manier onthouden gebruikers niet de categorieën, maar de
                 positie.
                 <a
-                  href="https://uxplanet.org/7-important-ux-laws-with-examples-c1ff02a05488"
+                  href="https://lawsofux.com/millers-law/"
                   target="_blank"
                   class="cursor-pointer underline underline-offset-2"
                   >Lees meer
@@ -342,7 +342,7 @@
                 alle beschikbare tijd is besteeds. Zara geeft je de optie om een
                 opgeslagen adres aan te klikken wat de gebruiker tijd bespaart.
                 <a
-                  href="https://uxplanet.org/7-important-ux-laws-with-examples-c1ff02a05488"
+                  href="https://lawsofux.com/parkinsons-law/"
                   target="_blank"
                   class="cursor-pointer underline underline-offset-2"
                   >Lees meer
