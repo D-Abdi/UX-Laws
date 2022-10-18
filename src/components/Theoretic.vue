@@ -219,7 +219,7 @@ export default {
           video: "https://player.vimeo.com/video/256178253?h=5f9b9dc1c4",
         },
         jacob: {
-          title: "Jabobs's Law",
+          title: "Jacobs's Law",
           text: `"Gebruikers brengen het grootste deel van hun tijd op andere sites door, 
           dit betekent dat gebruikers er de voorkeur aan geven dat uw site
            op dezelfde manier werkt als alle andere sites die ze al kennen." 
