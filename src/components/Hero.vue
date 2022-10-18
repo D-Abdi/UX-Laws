@@ -47,7 +47,6 @@
         </p>
         <div
           class="flex justify-center"
-          v-scroll-to="'#Intro'"
           v-motion
           :initial="{
             opacity: 0,
@@ -64,6 +63,7 @@
           }"
         >
           <svg
+          v-scroll-to="'#Intro'"
             xmlns="http://www.w3.org/2000/svg"
             width="48"
             height="48"
