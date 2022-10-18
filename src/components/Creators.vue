@@ -34,7 +34,7 @@
               "
               src="../assets/images/daniel.jpg"
             />
-            <p class="leading-relaxed">
+            <p class="leading-relaxed h-20">
               "Mijn doel is om in staat te zijn mijn opgedane kennis over UX
               Laws, succesvol over te kunnen dragen aan de 2e klassers tijdens
               de workshop."
@@ -116,7 +116,7 @@
               "
               src="../assets/images/simone.jpg"
             />
-            <p class="leading-relaxed">
+            <p class="leading-relaxed h-20">
               "Mijn doel is om de logica achter UX Laws beter begrijpen zodat ik
               mijn ontwerpkeuzes beter kan onderbouwen."
             </p>

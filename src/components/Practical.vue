@@ -54,7 +54,7 @@
                 transition-all
                 duration-300
                 hover:opacity-100
-                h-60
+                h-64
               "
               style="background-color: #d87b2e; border-color: #f4d74f"
             >
@@ -77,7 +77,8 @@
                 De knop is rechts van de afbeelding geplaatst om op de westerse
                 leesmanier direct zichtbaar te zijn. De knop is ook groot en
                 gekleurd zodat het makkelijker gevonden wordt en mee te
-                interacteren valt. <a
+                interacteren valt.
+                <a
                   href="https://uxplanet.org/7-important-ux-laws-with-examples-c1ff02a05488"
                   target="_blank"
                   class="cursor-pointer underline underline-offset-2"
@@ -106,7 +107,7 @@
                 transition-all
                 duration-300
                 hover:opacity-100
-                h-60
+                h-64
               "
               style="background-color: #c2185e; border-color: #f1206b"
             >
@@ -128,7 +129,8 @@
               <p class="leading-relaxed">
                 Airbnb haalt alle keuzes weg en laten de gebruiker zelf
                 vertellen waar zij voor kwamen. Dit doen zij door alleen een
-                zoekbalk aan te bieden op de homepage. <a
+                zoekbalk aan te bieden op de homepage.
+                <a
                   href="https://uxplanet.org/7-important-ux-laws-with-examples-c1ff02a05488"
                   target="_blank"
                   class="cursor-pointer underline underline-offset-2"
@@ -157,7 +159,7 @@
                 transition-all
                 duration-300
                 hover:opacity-100
-                h-60
+                h-64
               "
               style="background-color: #3a8d3d; border-color: #02e677"
             >
@@ -178,7 +180,8 @@
               </h1>
               <p class="leading-relaxed">
                 Het winkelmandje staat rechtsboven zoals vrijwel alle web
-                winkels dat hebben. <a
+                winkels dat hebben.
+                <a
                   href="https://uxplanet.org/7-important-ux-laws-with-examples-c1ff02a05488"
                   target="_blank"
                   class="cursor-pointer underline underline-offset-2"
@@ -207,7 +210,7 @@
                 transition-all
                 duration-300
                 hover:opacity-100
-                h-60
+                h-64
               "
               style="background-color: #75000c; border-color: #f05350"
             >
@@ -228,9 +231,10 @@
               </h1>
               <p class="leading-relaxed">
                 Consumenten nemen visueel vergelijkbare elementen in een ontwerp
-                waar als gerelateerd aan betekenis. Dit is de reden waarom
-                geklikte Google links een andere kleur hebben in tegenstelling
-                tot links die dat niet zijn. <a
+                waar als gerelateerd aan betekenis. Daarom maakt Google geklikte
+                links een andere kleur hebben in tegenstelling tot links die dat
+                niet zijn.
+                <a
                   href="https://uxplanet.org/7-important-ux-laws-with-examples-c1ff02a05488"
                   target="_blank"
                   class="cursor-pointer underline underline-offset-2"
@@ -260,7 +264,7 @@
                 transition-all
                 duration-300
                 hover:opacity-100
-                h-60
+                h-64
               "
               style="background-color: #b71828; border-color: #f05350"
             >
@@ -283,7 +287,8 @@
                 Miller's Law beweert dat mensen ongeveer 7 dingen kunnen
                 onthouden. Videoland kiest er voor om er maar 7 te laten zien.
                 Op deze manier onthouden gebruikers niet de categorieën, maar de
-                positie. <a
+                positie.
+                <a
                   href="https://uxplanet.org/7-important-ux-laws-with-examples-c1ff02a05488"
                   target="_blank"
                   class="cursor-pointer underline underline-offset-2"
@@ -313,7 +318,7 @@
                 transition-all
                 duration-300
                 hover:opacity-100
-                h-60
+                h-64
               "
               style="background-color: #cb0c58; border-color: #ff6296"
             >
@@ -335,7 +340,8 @@
               <p class="leading-relaxed">
                 Parkinson's Law beweert dat elke taak wordt opgeblazen totdat
                 alle beschikbare tijd is besteeds. Zara geeft je de optie om een
-                opgeslagen adres aan te klikken wat de gebruiker tijd bespaart. <a
+                opgeslagen adres aan te klikken wat de gebruiker tijd bespaart.
+                <a
                   href="https://uxplanet.org/7-important-ux-laws-with-examples-c1ff02a05488"
                   target="_blank"
                   class="cursor-pointer underline underline-offset-2"
