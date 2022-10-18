@@ -32,8 +32,7 @@
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
         <iframe
           src="https://drive.google.com/file/d/1tSTHaWXu9sJskanxCYcoI7LIFnIrh-KR/preview"
-          width="500"
-          height="400"
+          class="object-cover object-center rounded w-full h-80"
           allow="autoplay"
         ></iframe>
       </div>

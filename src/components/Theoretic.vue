@@ -158,12 +158,11 @@
         </div>
         </a>
       </div>
-      <div class="block mx-auto mb-10 object-cover object-center rounded">
+      <div class="w-full mb-10">
         <iframe
           title="vimeo-player"
           :src="activeExample.video"
-          width="640"
-          height="360"
+          class="object-cover object-center rounded w-full h-80"
           frameborder="0"
           allowfullscreen
         ></iframe>

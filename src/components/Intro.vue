@@ -27,11 +27,14 @@
         md:flex-row
         flex-col
         items-center
+        text-center
+        md:text-start
+        md:items-start
       "
     >
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
         <img
-          class="object-cover object-center rounded"
+          class="object-cover object-center rounded mb-10 md:mb-0"
           alt="hero"
           src="../assets/images/uxlaws.png"
         />
@@ -56,7 +59,7 @@
           What zijn de wetten van UX?
         </h1>
         <span
-          class="inline-block h-1 w-10 rounded mt-2 mb-4"
+          class="inline-block h-1 w-10 rounded mt-2 mb-4 self-center md:self-start"
           style="background-color: #297aa3"
         ></span>
         <p class="mb-8 leading-relaxed">
