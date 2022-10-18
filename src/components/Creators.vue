@@ -57,6 +57,8 @@
             <p class="text-gray-500">Creative Media & Game Technologies</p>
             <div class="flex justify-center mt-3">
               <a
+                href="https://www.linkedin.com/in/daniel-abdi-599883196"
+                target="_blank"
                 class="text-gray-500 rounded-full border-gray-500 border-2 p-1"
               >
                 <svg
@@ -75,7 +77,11 @@
                   <circle cx="4" cy="4" r="2" stroke="none"></circle>
                 </svg>
               </a>
-              <a class="ml-3 border-gray-500 rounded-full border-2 p-1">
+              <a
+                href="https://github.com/D-Abdi"
+                target="_blank"
+                class="ml-3 border-gray-500 rounded-full border-2 p-1"
+              >
                 <svg
                   fill="none"
                   stroke="#f4f1d0"
@@ -132,6 +138,8 @@
             <p class="text-gray-500">Communication & Multimedia Design</p>
             <div class="flex justify-center mt-3">
               <a
+                href="https://www.linkedin.com/in/simone-romeijn-b4142b1b9/"
+                target="_blank"
                 class="text-gray-500 rounded-full border-gray-500 border-2 p-1"
               >
                 <svg
@@ -150,7 +158,11 @@
                   <circle cx="4" cy="4" r="2" stroke="none"></circle>
                 </svg>
               </a>
-              <a class="ml-3 border-gray-500 rounded-full border-2 p-1">
+              <a
+                href="https://www.instagram.com/simoneromeijn/"
+                target="_blank"
+                class="ml-3 border-gray-500 rounded-full border-2 p-1"
+              >
                 <svg
                   fill="none"
                   stroke="currentColor"
