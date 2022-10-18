@@ -92,7 +92,7 @@
                     cursor-pointer
                     article-link
                   "
-                  >Learn More
+                  >Lees meer
                   <svg
                     class="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
@@ -156,7 +156,7 @@
                     cursor-pointer
                     article-link
                   "
-                  >Learn More
+                  >Lees meer
                   <svg
                     class="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
@@ -220,7 +220,7 @@
                     cursor-pointer
                     article-link
                   "
-                  >Learn More
+                  >Lees meer
                   <svg
                     class="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
