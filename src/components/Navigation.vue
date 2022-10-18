@@ -1,17 +1,30 @@
 <template>
-  <header class="text-gray-600 body-font sticky top-0 bg-color z-50">
+  <header class="text-gray-400 bg-gray-900 body-font sticky top-0 bg-color z-50">
     <div
       class="
         container
         mx-auto
         flex flex-wrap
-        p-5
+        px-5
+        py-2
         flex-col
         md:flex-row
         items-center
       "
     >
-      <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+      <a
+        class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
+        v-scroll-to="'#Hero'"
+      >
+        <img
+          src="../assets/images/logopng.png"
+          alt="UX Laws"
+          width="75"
+          height="75"
+        />
+        <span class="ml-3 text-xl">DaSi</span>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
         <a
           class="intro Hero mr-5 hover:text-gray-900 nav-link cursor-pointer"
           v-scroll-to="'#Intro'"
@@ -48,31 +61,7 @@
           ><span class="articles Articles">Artikelen</span>
         </a>
       </nav>
-      <a
-        class="
-          flex
-          order-first
-          lg:order-none lg:w-1/5
-          title-font
-          font-medium
-          items-center
-          text-gray-900
-          lg:items-center lg:justify-center
-          mb-4
-          md:mb-0
-          cursor-pointer
-        "
-        v-scroll-to="'#Hero'"
-      >
-        <img
-          src="../assets/images/logopng.png"
-          alt="UX Laws"
-          width="75"
-          height="75"
-        />
-        <span class="ml-3 text-xl">DaSi</span>
-      </a>
-      <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+      <div class="inline-flex lg:justify-end ml-5 lg:ml-0">
         <a
           style="color: #14151a !important"
           href="https://github.com/D-Abdi/UX-Laws"

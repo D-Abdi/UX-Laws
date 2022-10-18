@@ -85,7 +85,7 @@
           ></path>
         </svg>
       </span>
-      <span class="text-white ml-3">x</span>
+      <span class="text-white ml-3">+</span>
       <span>
         <svg
           height="24"
