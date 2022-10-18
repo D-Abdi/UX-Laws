@@ -114,10 +114,10 @@
                 Hick's Law
               </h2>
               <h1 class="title-font text-lg font-medium text-white mb-3">
-                AirBnB
+                Airbnb
               </h1>
               <p class="leading-relaxed">
-                AirBnB haalt alle keuzes weg en laten de gebruiker zelf vertellen
+                Airbnb haalt alle keuzes weg en laten de gebruiker zelf vertellen
                 waar zij voor kwamen. Dit doen zij door alleen een zoekbalk aan
                 te bieden op de homepage.
               </p>
