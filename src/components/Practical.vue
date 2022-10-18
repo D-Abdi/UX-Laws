@@ -49,12 +49,12 @@
                 relative
                 z-10
                 w-full
-                border-4 
+                border-4
                 opacity-0
                 hover:opacity-100
                 h-60
               "
-              style="background-color: #d87b2e; border-color: #f4d74f;"
+              style="background-color: #d87b2e; border-color: #f4d74f"
             >
               <h2
                 class="
@@ -99,7 +99,7 @@
                 hover:opacity-100
                 h-60
               "
-              style="background-color: #c2185e; border-color: #f1206b;"
+              style="background-color: #c2185e; border-color: #f1206b"
             >
               <h2
                 class="
@@ -117,9 +117,9 @@
                 Airbnb
               </h1>
               <p class="leading-relaxed">
-                Airbnb haalt alle keuzes weg en laten de gebruiker zelf vertellen
-                waar zij voor kwamen. Dit doen zij door alleen een zoekbalk aan
-                te bieden op de homepage.
+                Airbnb haalt alle keuzes weg en laten de gebruiker zelf
+                vertellen waar zij voor kwamen. Dit doen zij door alleen een
+                zoekbalk aan te bieden op de homepage.
               </p>
             </div>
           </div>
@@ -138,12 +138,12 @@
                 relative
                 z-10
                 w-full
-                border-4 
+                border-4
                 opacity-0
                 hover:opacity-100
                 h-60
               "
-              style="background-color: #3a8d3d; border-color: #02e677;"
+              style="background-color: #3a8d3d; border-color: #02e677"
             >
               <h2
                 class="
@@ -186,7 +186,7 @@
                 hover:opacity-100
                 h-60
               "
-              style="background-color: #75000C; border-color: #F05350;"
+              style="background-color: #75000c; border-color: #f05350"
             >
               <h2
                 class="
@@ -232,7 +232,7 @@
                 hover:opacity-100
                 h-60
               "
-              style="background-color: #b71828; border-color: #F05350;"
+              style="background-color: #b71828; border-color: #f05350"
             >
               <h2
                 class="
@@ -250,8 +250,10 @@
                 Videoland
               </h1>
               <p class="leading-relaxed">
-                Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-                microdosing tousled waistcoat.
+                Miller's Law beweert dat mensen ongeveer 7 dingen kunnen
+                onthouden. Videoland kiest er voor om er maar 7 te laten zien.
+                Op deze manier onthouden gebruikers niet de categorieën, maar de
+                positie.
               </p>
             </div>
           </div>
@@ -276,7 +278,7 @@
                 hover:opacity-100
                 h-60
               "
-              style="background-color: #cb0c58; border-color: #ff6296;"
+              style="background-color: #cb0c58; border-color: #ff6296"
             >
               <h2
                 class="
@@ -294,8 +296,9 @@
                 Zara
               </h1>
               <p class="leading-relaxed">
-                Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
-                microdosing tousled waistcoat.
+                Parkinson's Law beweert dat elke taak wordt opgeblazen totdat
+                alle beschikbare tijd is besteeds. Zara geeft je de optie om een opgeslagen
+                adres aan te klikken wat de gebruiker tijd bespaart.
               </p>
             </div>
           </div>
