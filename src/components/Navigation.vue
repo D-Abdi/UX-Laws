@@ -1,5 +1,7 @@
 <template>
-  <header class="text-gray-400 bg-gray-900 body-font sticky top-0 bg-color z-50">
+  <header
+    class="text-gray-400 bg-gray-900 body-font sticky top-0 bg-color z-50"
+  >
     <div
       class="
         container
@@ -13,7 +15,14 @@
       "
     >
       <a
-        class="flex title-font font-medium items-center text-white cursor-pointer"
+        class="
+          flex
+          title-font
+          font-medium
+          items-center
+          text-white
+          cursor-pointer
+        "
         v-scroll-to="'#Hero'"
       >
         <img
@@ -24,7 +33,15 @@
         />
         <span class="text-xl">DaSi</span>
       </a>
-      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+      <nav
+        class="
+          md:ml-auto md:mr-auto
+          flex flex-wrap
+          items-center
+          text-base
+          justify-center
+        "
+      >
         <a
           class="intro Hero mr-5 hover:text-gray-900 nav-link cursor-pointer"
           v-scroll-to="'#Intro'"
@@ -98,6 +115,9 @@
         </a>
       </div>
     </div>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
   </header>
 </template>
 
@@ -109,6 +129,17 @@ export default {
       sections: document.querySelectorAll("section"),
       navLi: document.querySelectorAll("nav"),
     };
+  },
+  methods: {
+    scrollProgress() {
+      let winScroll =
+        document.body.scrollTop || document.documentElement.scrollTop;
+      let height =
+        document.documentElement.scrollHeight -
+        document.documentElement.clientHeight;
+      let scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    },
   },
   mounted() {
     window.onscroll = () => {
@@ -129,6 +160,7 @@ export default {
           a.classList.add("active");
         }
       });
+      this.scrollProgress();
     };
   },
 };
