@@ -12,7 +12,7 @@
       transition: {
         type: 'spring',
         stiffness: '150',
-        delay: 250,
+        delay: 250
       },
     }"
   >
